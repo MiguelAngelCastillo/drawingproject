@@ -39,3 +39,22 @@ canvas.beginPath();
 canvas.fillStyle = "orange";
 canvas.arc(500,600,80,0,2*Math.PI,true);
 canvas.fill();
+
+//3rd pumpkin
+canvas.fillStyle = "brown";
+canvas.fillRect(735, 485, 30, 50);
+
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(750,600,85,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(720,600,80,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(780,600,80,0,2*Math.PI,true);
+canvas.fill();
