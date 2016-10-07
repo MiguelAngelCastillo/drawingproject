@@ -3,7 +3,7 @@ var canvas = canvasDiv.getContext('2d');
 //canvas.fillStyle = "pink";
 //canvas.fillRect(80, 50, 100, 100);
 // 1st#, left wall; 2nd#, up and down; 3rd#, length; 4th, width;
-canvas.fillStyle = "black";
+canvas.fillStyle = "DarkOrange";
 canvas.fillRect(0,0,1000,800);
 //rectangle pumpkin #1
 canvas.fillStyle = "brown";
@@ -25,10 +25,10 @@ canvas.arc(220,600,80,0,2*Math.PI,true);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "red";
-canvas.moveTo(220,185);
-canvas.lineTo(370,155);
-canvas.lineTo(450,825);
+canvas.fillStyle = "black";
+canvas.moveTo(240,550);
+canvas.lineTo(230,580);
+canvas.lineTo(250,580);
 canvas.fill();
 //2nd pumpkin
 canvas.fillStyle = "brown";
@@ -49,6 +49,12 @@ canvas.fillStyle = "orange";
 canvas.arc(500,600,80,0,2*Math.PI,true);
 canvas.fill();
 
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.moveTo(480,330);
+canvas.lineTo(340,560);
+canvas.lineTo(600,560);
+canvas.fill();
 //3rd pumpkin
 canvas.fillStyle = "brown";
 canvas.fillRect(735, 485, 30, 50);
