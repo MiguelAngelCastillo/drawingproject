@@ -24,8 +24,7 @@ canvas.beginPath();
 canvas.fillStyle = "orange";
 canvas.arc(220,600,80,0,2*Math.PI,true);
 canvas.fill();
-//mouth
-canvas.arc(200,100,25,0,Math.PI,true);
+
 //eyes
 canvas.beginPath();
 canvas.fillStyle = "black";
@@ -40,6 +39,13 @@ canvas.moveTo(140,550);
 canvas.lineTo(130,580);
 canvas.lineTo(150,580);
 canvas.fill();
+//mouth
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.arc(190,620,40,0,2*Math.PI,true);
+canvas.fill()
+canvas.fillStyle = "orange"
+canvas.fillRect(150,580,80,50);
 //2nd pumpkin
 //stem
 canvas.fillStyle = "brown";
@@ -80,6 +86,13 @@ canvas.moveTo(425,550);
 canvas.lineTo(440,580);
 canvas.lineTo(410,580);
 canvas.fill();
+//mouth
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.arc(470,620,40,0,2*Math.PI,true);
+canvas.fill()
+canvas.fillStyle = "orange"
+canvas.fillRect(430,580,80,50);
 //3rd pumpkin
 //stem
 canvas.fillStyle = "brown";
@@ -113,3 +126,10 @@ canvas.moveTo(800,550);
 canvas.lineTo(790,580);
 canvas.lineTo(810,580);
 canvas.fill();
+//mouth
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.arc(750,620,40,0,2*Math.PI,true);
+canvas.fill()
+canvas.fillStyle = "orange"
+canvas.fillRect(710,580,80,50);
