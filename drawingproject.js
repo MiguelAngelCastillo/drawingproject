@@ -133,3 +133,117 @@ canvas.arc(750,620,40,0,2*Math.PI,true);
 canvas.fill()
 canvas.fillStyle = "orange"
 canvas.fillRect(710,580,80,50);
+//scarecrow
+canvas.fillStyle = "DarkGrey"
+canvas.fillRect(180,30,80,450);
+
+canvas.fillStyle = "red"
+canvas.fillRect(170,120,100,120);
+
+canvas.fillStyle = "red"
+canvas.fillRect(170,120,200,40);
+
+canvas.fillStyle = "red"
+canvas.fillRect(70,120,110,40);
+
+canvas.fillStyle = "DarkBlue"
+canvas.fillRect(170,200,100,240);
+
+canvas.fillStyle = "DarkBlue"
+canvas.fillRect(170,120,20,120);
+
+canvas.fillStyle = "DarkBlue"
+canvas.fillRect(250,120,20,120);
+
+canvas.fillStyle = "black"
+canvas.fillRect(215,320,10,120);
+//head
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(220,80,60,0,2*Math.PI,true);
+canvas.fill()
+
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(200,80,55,0,2*Math.PI,true);
+canvas.fill()
+
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.arc(240,80,55,0,2*Math.PI,true);
+canvas.fill()
+//eyes
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.moveTo(195,50);
+canvas.lineTo(190,70);
+canvas.lineTo(200,70);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.moveTo(245,50);
+canvas.lineTo(240,70);
+canvas.lineTo(250,70);
+canvas.fill();
+//mouth
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.arc(220,105,20,0,2*Math.PI,true);
+canvas.fill()
+canvas.fillStyle = "orange"
+canvas.fillRect(200,85,40,20);
+//hands
+canvas.fillStyle = "yellow"
+canvas.fillRect(40,150,30,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(20,140,50,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(30,130,40,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(45,120,25,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(370,150,35,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(370,140,40,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(370,130,45,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(370,120,25,10);
+//feet
+canvas.fillStyle = "yellow"
+canvas.fillRect(170,440,10,25);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(180,440,10,15);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(190,440,10,20);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(200,440,10,30);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(210,440,10,25);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(220,440,10,30);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(230,440,10,35);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(240,440,10,10);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(250,440,10,15);
+
+canvas.fillStyle = "yellow"
+canvas.fillRect(260,440,10,20);
