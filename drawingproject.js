@@ -24,6 +24,8 @@ canvas.beginPath();
 canvas.fillStyle = "orange";
 canvas.arc(220,600,80,0,2*Math.PI,true);
 canvas.fill();
+//mouth
+canvas.arc(200,100,25,0,Math.PI,true);
 //eyes
 canvas.beginPath();
 canvas.fillStyle = "black";
@@ -107,7 +109,7 @@ canvas.fill();
 
 canvas.beginPath();
 canvas.fillStyle = "black";
-canvas.moveTo(700,550);
-canvas.lineTo(690,580);
-canvas.lineTo(710,580);
+canvas.moveTo(800,550);
+canvas.lineTo(790,580);
+canvas.lineTo(810,580);
 canvas.fill();
